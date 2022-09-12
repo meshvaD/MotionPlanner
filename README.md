@@ -21,3 +21,5 @@
      
 TO DO: ensure that no part of the link if touching any obstacles, not just the tip of the end effector
  
+### Other
+* visualize the Joint Space of any 2-joint system, given the Cartesian Space
