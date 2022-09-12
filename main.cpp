@@ -20,9 +20,10 @@ int main(int argc, char** argv)
     // ik_solver->solve();
     // ik_solver->print();
 
-    // FOR VISUALIZATION PURPOSES (max 2 links)
-
+    // VISUALIZATION -- IK
     // AnimatedWindow window(argc, argv, ik_solver);
+
+    // VISUALIZATION -- PATH SOLVER
     // double scale = 100;
     // CSpace* cspace = new CSpace(link_tree, "/home/meshva/cpp_projects/MotionPlanner/images/cartesian.jpg", scale);
     // cv::Mat im = cspace->toConfiguration();
