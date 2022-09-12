@@ -42,14 +42,10 @@ bool IKSolver::validEndPosition()
     double x = end_link->end_pos[0];
     double y = end_link->end_pos[1];
 
-    // std::cout << img.at<cv::Vec3b>(x, y) << std::endl;
-
-    return true;
-
-    //if white, allowed pos
-    // if (img.at<cv::Vec3b>(x, y) == cv::Vec3b(255,255,255))
-    //     return true;
-    // return false;
+    // if white, allowed pos
+    if (img.at<cv::Vec3b>(x, y) == cv::Vec3b(255,255,255))
+        return true;
+    return false;
 }
 
 bool IKSolver::reached()
